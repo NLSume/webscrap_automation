@@ -34,7 +34,7 @@ top_gainers %>%
            into = 'company_name',
            sep = '\t') -> top_gainers
            
- write.csv(top_gainers, file=paste0('data/','_top_gainers','.csv'))          
+ write.csv(top_gainers, file=paste0('data/',Sys.Date(),'_top_gainers','.csv'))          
            
            
 # Top Gainers Chart 
