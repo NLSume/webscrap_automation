@@ -4,7 +4,7 @@ name: web scraping with R
 # Controls when the action will run.
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 0 1 * *'
   workflow_dispatch:
 
 jobs:
