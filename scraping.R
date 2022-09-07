@@ -52,3 +52,5 @@ top_gainers %>%
   theme_minimal()+
   labs(title = "Top Gainer - Nifty50",
        subtitle = 'using R')
+ggsave(paste0('data/','top_gainer_',Sys.time(),'.png'))
+
