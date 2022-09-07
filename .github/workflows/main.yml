@@ -5,6 +5,7 @@ name: web scraping with R
 on:
   schedule:
     - cron: '*/30 * * * *'
+  workflow_dispatch:
 
 jobs:
   autoscrape:
